@@ -683,3 +683,273 @@ body{
     margin-left: -2rem;
 
 }
+
+.navigationItem.menu.itemLeft{
+    display: none;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .navigation{
+        margin: 1.3rem 1rem ;
+    }
+
+    .navigationItem:not(.itemLeft) {
+        display: none;
+    }
+
+    .itemLeft{
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .navigationItem.menu.itemLeft{
+        display: contents;
+    }
+
+    .iconNav{
+        color: black;
+        position: static;
+        transform: translate(0,0);
+    }
+
+    .header{
+        margin: 0;
+    }
+
+    .titleContainer{
+        width: 100%;
+        margin: 0;
+        margin-left: 4rem;
+        margin-top: 5rem;
+    }
+
+    .subTitle{
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 0;
+
+    }
+
+    .title{
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 80%;
+        margin-bottom: 1.5rem;
+
+    }
+
+    .imgContainer{
+        padding: 1rem;
+    }
+
+    .imgContainer img{
+        margin: 0;
+        object-fit: cover;
+        border-radius: 18px;
+        margin-bottom: 2.2rem;
+    }
+
+    .secondaryTitle{
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 70%;
+        
+    }
+
+    .secondaryText{
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 80%;
+
+    }
+
+    .btnText{
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .headerForm{
+        margin-bottom: 10rem;
+    }
+
+    .cardsTitle{
+        width: 100%;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .cardsContainer{
+        grid-template-columns: none;
+        grid-template-rows: repeat(3,1fr);
+    }
+
+    .cards{
+        margin-bottom: 15rem;
+    }
+
+    .designsTitle{
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 100%;
+        margin-bottom: 5rem;
+        
+
+    }
+
+    .designsContainer{
+        grid-template-rows: repeat(4,1fr);
+        grid-template-columns: none;
+    }
+
+    .designContainer{
+        margin-bottom: 0;
+    }
+
+    .leftImg{
+        transform: translateY(0);
+    }
+
+    .designBtn:link, .designBtn:visited{
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        float: left;
+
+    }
+
+    .designs{
+        margin-bottom: 10rem;
+    }
+
+    .about{
+        flex-direction: column;
+        margin-bottom: 10rem;
+    }
+
+    .aboutContent{
+        margin: 0;
+    }
+
+    .aboutSubTitle{
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .aboutTitle{
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 54px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .aboutText{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 3.5rem;
+
+    }
+
+    .review{
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+ 
+    }
+
+    .userName{
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .userCompany{
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .footer{
+        flex-direction: column;
+        padding: 4rem;
+    }
+
+    .footerSocialList{
+        margin-bottom: 6.5rem;
+    }
+
+    .footerForm{
+        position: relative;
+    }
+
+    .footerForm button{
+        position: absolute;
+        right: 0;
+        margin-bottom: 6rem;
+    }
+  }
